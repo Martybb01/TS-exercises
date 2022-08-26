@@ -4,7 +4,7 @@
 
 //* Add types to this function declaration.
 
-function doubleThePopulation(value: number) {
+function doubleThePopulation(value: number): number {
   return value * 2;
 }
 
@@ -29,8 +29,9 @@ function languagesSpoken(
   console.log(`The languages spoken in ${country} are:`);
 
   console.log(language1);
-
-  console.log(language2);
+  if (language2 !== undefined) {
+    console.log(language2);
+  }
 }
 
 languagesSpoken("Colombia", "Spanish", "English");
