@@ -1,27 +1,26 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
-var countryA = {
+const countryA = {
     name: "India",
     code: "IN",
-    population: 1352642280
+    population: 1352642280,
 };
-var countryB = {
+const countryB = {
     name: "Italy",
-    code: "IT"
+    code: "IT",
 };
-var countryC = {
+const countryC = {
     name: "Spain",
     code: "ES",
-    population: 47450795
+    population: 47450795,
 };
-var currencyData = {
+const currencyData = {
     name: "Euro",
     code: "EUR",
-    symbol: "€"
+    symbol: "€",
 };
 // currencyData.name = "Gold"; --> this will throw an error
 currencyData.code = "GGG";
 console.log(currencyData);
+export {};

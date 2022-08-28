@@ -1,22 +1,21 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
-var countryA = {
+const countryA = {
     name: "India",
     code: "IN",
-    population: 1352642280
+    population: 1352642280,
 };
-var countryB = {
+const countryB = {
     name: "Italy",
-    code: "IT"
+    code: "IT",
 };
-var countryC = {
+const countryC = {
     name: "Spain",
     code: "ES",
-    population: 47450795
+    population: 47450795,
 };
 console.log(countryA);
 console.log(countryB);
 console.log(countryC);
+export {};

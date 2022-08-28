@@ -1,9 +1,8 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
-var country1 = "Nigeria";
-var country2 = "Italy";
-var country3 = "China";
-console.log("".concat(country1, ", ").concat(country2, ", ").concat(country3));
+const country1 = "Nigeria";
+const country2 = "Italy";
+const country3 = "China";
+console.log(`${country1}, ${country2}, ${country3}`);
+export {};

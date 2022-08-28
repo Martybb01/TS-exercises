@@ -1,15 +1,14 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
 // Add type annotations to each of these variables.
-var country = "Italy";
-var year = undefined;
-var averageTemperature = 23.6;
-var visited = true;
-var currency = null;
+let country = "Italy";
+let year = undefined;
+let averageTemperature = 23.6;
+let visited = true;
+let currency = null;
 // Change the type annotations on these variables so they are correct.
-var population = 47450795;
-var isSummer = false;
-var languages = "Spanish, English";
+let population = 47450795;
+let isSummer = false;
+let languages = "Spanish, English";
+export {};

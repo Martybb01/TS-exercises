@@ -1,15 +1,14 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
-var languagesObj1 = {
+const languagesObj1 = {
     name: "New Zealand",
-    languages: "English, Māori"
+    languages: "English, Māori",
 };
 console.log(languagesObj1.languages);
-var languagesObj2 = {
+const languagesObj2 = {
     name: "Spain",
-    languages: ["Spanish", "Catalan", "Galician", "Basque", "Valencian"]
+    languages: ["Spanish", "Catalan", "Galician", "Basque", "Valencian"],
 };
 console.log(languagesObj2.languages.join(", "));
+export {};

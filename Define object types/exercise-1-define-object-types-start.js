@@ -1,22 +1,21 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
 // Add a type annotation to this variable that describes the object it contains.
-var countryPopulation = {
+const countryPopulation = {
     code: "NZ",
-    population: 5135300
+    population: 5135300,
 };
-var countryData = {
+const countryData = {
     name: "India",
     code: "IN",
-    population: 1352642280
+    population: 1352642280,
 };
 console.log(countryData);
-var currencyData = {
+const currencyData = {
     name: "Euro",
     code: "EUR",
-    symbol: "€"
+    symbol: "€",
 };
 console.log(currencyData);
+export {};
