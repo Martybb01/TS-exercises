@@ -1,12 +1,10 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
 // Prevent the array from being modified.
 // Use the generic interface type `ReadonlyArray`: ReadonlyArray<type>
 // This will cause a type error. Remove the code that now has a type error.
-var languages = [
+const languages = [
     "Mongolian",
     "French",
     "Basque",
@@ -17,7 +15,7 @@ console.log(languages);
 // Prevent the array from being modified.
 // Use the readonly modifier and the array literal type syntax: readonly type[]
 // This will cause a type error. Remove the code that now has a type error.
-var currencies = [
+const currencies = [
     "NZD",
     "THB",
     "NGN",
@@ -27,3 +25,4 @@ var currencies = [
 ];
 // currencies.reverse(); --> the property doesn't exist on type readonly string[]
 console.log(currencies);
+export {};

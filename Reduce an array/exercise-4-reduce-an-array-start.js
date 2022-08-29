@@ -1,9 +1,7 @@
-"use strict";
 /**
  * START: Follow the instructions below.
  */
-exports.__esModule = true;
-var populations = [
+const populations = [
     1412600000, 60317116, 69950850, 10678632,
 ];
 // The Array reduce method allows us to generate a single value from
@@ -15,7 +13,8 @@ var populations = [
 // This should fix the type error on Line 23.
 //
 // Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
-var sumOfPopulations = populations.reduce(function (total, population) {
+const sumOfPopulations = populations.reduce((total, population) => {
     return total + population;
 }, 0);
 console.log(sumOfPopulations);
+export {};
